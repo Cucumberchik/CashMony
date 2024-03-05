@@ -1,0 +1,90 @@
+body{
+    background: linear-gradient(40deg, #120627 0%,#150a25 30%, #030a11 100%);
+}
+.Page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.page_conteiner{
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.products{
+    border-radius: 10px;
+    border: 1px solid rgb(59, 59, 59);
+}
+
+.balans{
+    width: 330px;
+    height: 120px;
+    border-radius: 10px;
+    border: 1px solid rgb(59, 59, 59);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-weight: 500;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    button{
+        color: rgb(188, 228, 255);
+        font-weight: 600;
+    }
+}
+.products{
+
+}
+.product_item{
+    display: flex;
+    align-items: center;
+    img{
+        width: 100px;
+        height: 100px;
+        border-radius: 9px;
+    }
+    h3{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 114%;
+        color: #c3f1f5;
+        span{
+            font-size: 16px;
+        }
+    }
+}
+.addProducts{
+    width: 250px;
+    height: 500px;
+    overflow-x: auto;
+    border: 1px solid rgb(59, 59, 59);
+    h1{
+        font-size: 25px;
+        color: white;
+        font-weight: 400;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h2{
+        font-size: 20px;
+        color: rgb(136, 136, 136);
+        font-weight: 400;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h3{
+        font-size: 20px;
+        color: rgb(224, 224, 224);
+        font-weight: 400;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    p{
+        font-size: 18px;
+        color: rgb(224, 224, 224);
+        font-weight: 400;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
